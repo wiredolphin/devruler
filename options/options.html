@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../lib/vanilla-picker.js"></script>
+    <script type="text/javascript" src="../lib/range-slider/range-slider.js"></script>
+    <link type="text/css" rel="stylesheet" href="../lib/range-slider/range-slider.css" />
+    <link type="text/css" rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <form id="options-form">
+      <div id="ruler-bg" class="options-field hidden-field">
+        <label>Ruler background</label>
+        <div class="options-color"><input type="text" name="ruler-bg" value=""></div>
+      </div>
+      <div id="ruler-fg" class="options-field hidden-field">
+        <label>Ruler foreground</label>
+        <div class="options-color"><input type="text" name="ruler-fg" value=""></div>
+      </div>
+      <div id="breakpoints-bg" class="options-field hidden-field">
+        <label>Breakpoints background</label>
+        <div class="options-color"><input type="text" name="breakpoints-bg" value=""></div>
+      </div>
+      <div id="breakpoints-fg" class="options-field hidden-field">
+        <label>Breakpoints foreground</label>
+        <div class="options-color"><input type="text" name="breakpoints-fg" value=""></div>
+      </div>
+      <div id="" class="options-range">
+        <label>Margin top</label>
+        <input id="margin-top" type="range" name="margin-top" value="">
+      </div>
+      <div class="options-buttons">
+        <button type="button">Reset</button>
+      </div>
+    </form>
+    <script type="text/javascript" src="options.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ruler_popup.css"/>
+  </head>
+  <body>
+    <div id="popup-content">
+      <div class="popup-header">
+        <h4>DevRuler</h4>
+      </div>
+      <div class="popup-item">
+        <label><input id="ruler-state" type="checkbox" name="state" value="visible">Show ruler</label>
+      </div>
+      <div class="popup-item">
+        <label><input id="bsb-state" type="checkbox" name="bsb-state" value="visible">Show bootstrap breakpoints</label>
+      </div>
+      <div class="popup-item options">
+        <span id="open-options-icon"></span><a href="" id="open-options">Preferences</a>
+      </div>
+    </div>
+    <div id="error-content" class="hidden">
+      <p>Can't add ruler to this page</p><p>Try a different page.</p>
+    </div>
+    <script src="ruler_popup.js"></script>
+  </body>
+</html>

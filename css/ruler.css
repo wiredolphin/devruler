@@ -1,0 +1,38 @@
+/**
+* DevRuler ruler styles
+* Author: vince damiani 2019;
+*/
+#ruler {
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 34px;
+  overflow: hidden;
+  z-index: 100000;
+}
+#ruler > .ruler-inner {
+  display: flex;
+  height: 16px;
+  /*color: rgba(10, 255, 203, 0.91);*/
+  /*background-color: rgba(17, 104, 104, 0.8);*/
+}
+.ruler-dec {
+  width: 10px;
+  /*border-right: 1px solid rgba(10, 255, 203, 0.20);*/
+  height: 5px;
+  display:inline-block;
+}
+.ruler-hundreds {
+  width: 10px;
+  /*border-right: 1px solid rgba(10, 255, 203, 0.66);*/
+  height: 8px;
+  display:inline-block;
+}
+.hundreds-count {
+  position: absolute;
+  /*color: rgba(10, 255, 203, 0.66);*/
+  top: 7px;
+  margin-left: 11px;
+  font-size: .5rem;
+}

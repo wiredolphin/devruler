@@ -1,0 +1,73 @@
+{
+
+  "description": "Adds a browser action icon to the toolbar that allow to dispaly an horizontal ruler for web development purposes",
+  "manifest_version": 2,
+  "name": "DevRuler",
+  "version": "1.0.2",
+  // "homepage_url": "",
+  "author": "Vince Damiani",
+  "icons": {
+    "48": "icons/ruler-48.png"
+  },
+
+  "permissions": [
+    "<all_urls>", //very important, insertCss would not work without it
+    "activeTab",
+    "browsingData",
+    "notifications",
+    "storage",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/ruler-32.png",
+    "theme_icons": [{
+        "light": "icons/ruler-light-32.png",
+        "dark": "icons/ruler-32.png",
+        "size": 32
+    }],
+    "default_title": "DevRuler",
+    "default_popup": "popup/ruler_popup.html"
+  },
+
+  "page_action": {
+    "browser_style": true
+  },
+
+  // "content_scripts": [
+  //   {
+  //     // "matches": ["http://*.nytimes.com/*"],
+  //     // "css": ["myStyles.css"],
+  //     "matches": [
+  //       "<all_urls>"
+  //     ],
+  //     "js": ["js/onload.js"]
+  //   }
+  // ],
+
+  "options_ui": {
+    "page": "options/options.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "devruler@developer.mozilla.org"
+    }
+  },
+
+  // "applications": {
+  //   "gecko": {
+  //     "id": "devruler@example.com"
+  //   }
+  // },
+
+  "background": {
+    "scripts": [
+      "onupdate.js"
+    ]
+  }
+}
+
+
+
+

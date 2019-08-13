@@ -1,0 +1,64 @@
+/**
+* DevRuler ruler breakpoints styles
+* Author: vince damiani 2019;
+*/
+#breakpoints {
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 34px;
+  overflow: hidden;
+  z-index: 10000000;
+}
+#breakpoints > .ruler-inner {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 36px;
+}
+.bs-breakpoint {
+  /*border-right: 1px solid rgba(255,0,0,.8);*/
+  height: 18px;
+  display: block;
+  position: relative;
+}
+.bs-breakpoint::after {
+  position:absolute;
+  /*background-color: rgba(255,0,0,.75);*/
+  /*color: rgb(255, 255, 255);*/
+  font-size:.65rem;
+  left: 100%;
+  margin-left: -40px;
+  margin-top: 18px;
+  white-space: nowrap;
+  text-align: center;
+  width: 80px;
+  height: 14px;
+  line-height: 14px;
+  border-radius: 3px;
+}
+.bs-ruler-xs {
+  width: 576px;
+}
+.bs-ruler-sm {
+  width: calc(768px - 576px);
+}
+.bs-ruler-md {
+  width: calc(992px - 768px);
+}
+.bs-ruler-lg {
+  width: calc(1200px - 992px);
+}
+.bs-ruler-xs::after {  
+  content: 'XS < 576 > SM'; 
+}
+.bs-ruler-sm::after {  
+  content: 'SM < 768 > MD'; 
+}
+.bs-ruler-md::after {  
+  content: 'MD < 992 > LG'; 
+}
+.bs-ruler-lg::after {  
+  content: 'LG < 1200 > XL'; 
+}
