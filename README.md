@@ -1,7 +1,4 @@
-## DevRuler <img alt="" width="32" height="32" src="https://raw.githubusercontent.com/wiredolphin/devruler/master/icons/ruler-48.png">
-
-**Firefox add-on** <img alt="" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ORANGE">
-
+## DevRuler <img alt="" width="32" height="32" src="https://raw.githubusercontent.com/wiredolphin/devruler/master/icons/ruler-48.png"> <img alt="" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ORANGE">
 
 A Firefox <a target="_blank" href="https://addons.mozilla.org/it/firefox/addon/devruler/">web-extension</a> that adds a browser action icon to the toolbar and provides some helper tools to web developers.
 
