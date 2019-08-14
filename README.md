@@ -1,4 +1,4 @@
-## DevRuler <img alt="" width="48" height="48" src="https://raw.githubusercontent.com/wiredolphin/devruler/master/icons/ruler-48.png">
+## DevRuler <img alt="" width="32" height="32" src="https://raw.githubusercontent.com/wiredolphin/devruler/master/icons/ruler-48.png">
 
 **Firefox add-on** <img alt="" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ORANGE">
 
