@@ -1,6 +1,7 @@
-# DevRuler 
+## DevRuler <img alt="" width="48" height="48" src="https://raw.githubusercontent.com/wiredolphin/devruler/master/icons/ruler-48.png">
 
 **Firefox add-on** <img alt="" src="https://img.shields.io/static/v1?label=License&message=MIT&color=ORANGE">
+
 
 A Firefox <a target="_blank" href="https://addons.mozilla.org/it/firefox/addon/devruler/">web-extension</a> that adds a browser action icon to the toolbar and provides some helper tools to web developers.
 
@@ -10,17 +11,26 @@ Currently it provides:
 <li><strong>show/hide</strong> a <em>Bootstrap</em> (See: <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a>) responsive breakpoints ruler
 </li>
 </ol>
-Both this tools are customizable using the add-on options page.
+Both the above tools are customizable using the add-on options page.
 
-<br/>
+<p></p>
 
 **DevRuler in action**
 <p align="left">
 	<img width="60%" src="https://github.com/wiredolphin/devruler/blob/master/screenshots/screenshot_1.png">
 </p>
-<br/>
 
 **Settings panel**
 <p align="left">
 	<img width="60%" src="https://github.com/wiredolphin/devruler/blob/master/screenshots/screenshot_2.png">
 </p>
+
+### Install for testing purpose
+
+1. Open "about:debugging" in Firefox URL bar
+2. Click "Load Temporary Add-on" 
+3. Select any file within the extension's directory
+
+
+### License
+MIT License
